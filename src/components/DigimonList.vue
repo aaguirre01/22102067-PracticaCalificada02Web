@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import DigimonFilter from "./DigimonFilter.vue";
+import DigimonFilter from "./DigimonFilter.vue"; 
 
 export default {
   name: "DigimonList",

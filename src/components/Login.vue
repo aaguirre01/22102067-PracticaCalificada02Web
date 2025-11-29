@@ -15,7 +15,7 @@
 
       <button type="submit">Ingresar</button>
 
-      <p class="error" v-if="errorMsg">{{ errorMsg }}</p>
+      <p class="error" v-if="errorMsg">{{ errorMsg }}</p> 
     </form>
   </div>
 </template>

@@ -14,7 +14,7 @@
       <option value="Rookie">Rookie</option>
       <option value="Champion">Champion</option>
       <option value="Ultimate">Ultimate</option>
-      <option value="Mega">Mega</option>
+      <option value="Mega">Mega</option> //hfhfhhdhddjd
     </select>
   </div>
 </template>
