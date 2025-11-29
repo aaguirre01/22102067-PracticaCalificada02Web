@@ -1,16 +1,21 @@
+import LoginPage from '../components/Login.vue'
+import DigimonList from '../components/DigimonList.vue'
+
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/IndexPage.vue') }],
+    component: LoginPage   // 👉 Carga tu login como página principal
+  },
+  {
+    path: '/digimons',
+    component: DigimonList // 👉 Carga la lista de Digimons
   },
 
-  // Always leave this as last one,
-  // but you can also remove it
+  // Ruta para errores o páginas inexistentes
   {
     path: '/:catchAll(.*)*',
     component: () => import('pages/ErrorNotFound.vue'),
-  },
+  }
 ]
 
 export default routes
