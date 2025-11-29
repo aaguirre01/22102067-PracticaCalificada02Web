@@ -4,11 +4,11 @@ import DigimonList from '../components/DigimonList.vue'
 const routes = [
   {
     path: '/',
-    component: LoginPage   // 👉 Carga tu login como página principal
+    component: LoginPage   
   },
   {
     path: '/digimons',
-    component: DigimonList // 👉 Carga la lista de Digimons
+    component: DigimonList 
   },
 
   // Ruta para errores o páginas inexistentes

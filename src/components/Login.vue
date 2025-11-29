@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: "LoginPage",   // 👈 multi-word para evitar warning
+  name: "LoginPage",   
 
   data() {
     return {
@@ -56,14 +56,14 @@ export default {
           return;
         }
 
-        // Guardar token
+        
         localStorage.setItem("token", data.token);
 
-        // Ir a Digimons
+        
         this.$router.push("/digimons");
 
       } catch {
-        // 👈 catch corregido sin (err)
+        
         this.errorMsg = "Error de conexión.";
       }
     },
